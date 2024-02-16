@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); 
+
+/* select all the tags and set the box-sizing to border-box for having predictable box-sizing*/
+*{
+  box-sizing: border-box;
+}
+
+/* Select the html tag and set the font-family to 18px we need it for REM unit because we want to 
+REM unit inside our project*/
+html{
+  font-size: 18px; 
+}
+
+/*Select the body tag and set its margin to zero and set its font-family to quicksand and sans as an alternative font*/
+body{
+  margin: 0;
+  font-family: Quicksand, sans-serif;
+}
+
+a{
+  /* Select the a tag and set its text-decoration to none because we don't want a tags to have underlined */
+  text-decoration: none; 
+}
